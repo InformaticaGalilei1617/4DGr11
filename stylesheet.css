@@ -1,0 +1,96 @@
+a {color: #0000FF; text-decoration: none;}
+a:visited {color: #0099FF; text-decoration: none;}
+tr:nth-child(even) {background-color: #FFFFD1;}
+
+.canvas {border:3px solid #FF0000;}
+.nascosto {style-display: none;}
+.button {
+    	background-color: orangeRed;
+    	border: none;
+    	color: white;
+    	padding: 6px 6px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 14px;
+    	font-family: Century Gothic;
+}
+.button:hover {background-color: #FF8855;}
+.button:active {background-color: #FF2222;}
+.form {width: 40%;}
+.home {
+      	font: 15px Century Gothic, sans-serif;
+      	color: #000000;
+      	padding: 2px 50px;
+      	text-align: center;
+      	background-color: #FFFFCD;
+}
+.history {font: 15px arial, sans-serif; color: #000000;}
+.linkcell {width: 33%;}
+.linkcell:hover {background-color: #FFEEAA;}
+.sfondo {background-color: #FFFFFF;}
+.nascosto {display: none;}
+
+#controlhistory {
+	font: 15px Century Gothic, sans-serif;
+	color: #000000;
+      	padding: 2px 50px;
+     	text-align: left;
+ 	background-color: #FFCC77;
+}
+#titolo {
+	font: 32px Century Gothic, sans-serif;
+	color: #000000;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	background-color:#FF6666;
+}
+#linktable {
+	background-color: #FFCC99;
+	width: 100%;
+	height: 30px;
+	font: 15px arial, sans-serif;
+	text-align: center;
+	vertical-align: center;
+	font-style: italic;
+}
+#thispage {font-weight: bold;}
+#cronologia {
+	border: 2px solid #FF0000;
+	width: 100%;
+      	font: 15px arial, sans-serif;
+      	color: #000000;
+}
+#controlli {
+      	font: 15px Century Gothic, sans-serif;
+      	color: #000000;
+      	padding: 2px 50px;
+      	text-align: left;
+ 	background-color: #FFFFCD;
+}
+#drawarea {
+	border: 0px;
+	text-align: center;
+	font: 15px Century Gothic, sans-serif;
+     	color: #000000;
+      	padding: 2px 50px;
+}
+#aggiunta {
+	font: 15px Century Gothic, sans-serif;
+      	color: #000000;
+      	padding: 2px 50px;
+      	text-align: center;
+      	background-color: #FFFFCD;
+}
+#espandi {
+	background-color: #FF8866;
+    	color: white;
+    	padding: 0px 50px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 14px;
+    	font-family: Century Gothic;
+	width: 100%;
+}

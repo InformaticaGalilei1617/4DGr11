@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gruppo 11 - Cronologia</title>
+		<meta content="Nicolo' Caon, Davide Dainese" name="author" />
+		<meta content="Lista dei disegni precedenti" name="description" />
+		<meta charset="UTF-8" />
+		<meta lang="it" />
+		<meta dir="ltr" />
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+		<script language="javascript" src="script.js"></script>
+</head>
+<body onload="showhistory()">
+<div id="titolo">Progetto Gruppo 11</div>
+<table id="linktable"><tr>
+<td class="linkcell"> <a href="Canvas.html">Canvas</a> </td>
+<td class="linkcell"> <p id="thispage">Cronologia</p> </td>
+<td class="linkcell"> <a href="Homepage.html">Home</a> </td>
+</tr></table><br />
+
+<!-- CRONOLOGIA CON TABELLA -->
+<table id="cronologia">
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>Ascissa del centro</td>
+            <td>Ordinata del centro</td>
+            <td>Grandezza</td>
+            <td>Numero di Ricorsioni</td>
+            <td>Data</td>
+            <td>Ora</td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<div id="controlli">
+La cronologia non funziona come previsto? Vuoi cancellare la cronologia per liberare memoria? Usa questi pulsanti:<br /><br />
+<input type="button" class="button" name="compatibile" value="Controlla la compatibilit&agrave;" onclick="hostisworking()">
+<input type="button" class="button" name="clearstorage" value="Resetta WebStorage" onclick="clearhistory()">
+<p id="avvisoreset" class="nascosto"> Prova </p>
+<p id="wsisworking" class="nascosto"> Prova </p><br />
+<p id="jsonisworking" class="nascosto"> Prova </p><br />
+</div>
+<div><p id="controlhistory" class="nascosto"> Prova </p><br /></div>
+	</body>
+</html>

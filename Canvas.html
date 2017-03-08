@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--HEAD-->
+  <title>Gruppo 11 - Canvas</title>
+  <meta content="Nicolo' Caon, Davide Dainese" name="author">
+  <meta content="Area di Disegno e di inserimento parametri" name="description">
+  <meta charset="UTF-8">
+  <meta lang="it">
+  <meta dir="ltr">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script language="javascript" src="script.js"></script>
+</head>
+<body>
+<!--BODY-->
+<div id="titolo">Progetto Gruppo 11</div>
+<table id="linktable"><tr>
+<td class="linkcell"> <a href="Homepage.html">Home</a> </td>
+<td class="linkcell"> <p id="thispage">Canvas</p> </td>
+<td class="linkcell"> <a href="Cronologia.html">Cronologia</a> </td>
+</tr></table><br />
+<table id="drawarea">
+  <tbody>
+    <tr>
+      <td class="form">
+	Dimensioni<br />
+	<input name="lato" min="1" max="3" type="range" id="lato" value="2"><br /><br />
+	Numero di Ricorsioni<br />
+	<input name="ricorsioni" min="1" max="9" type="range" id="ricorsioni" value="5"><br /><br />
+	Coordinate del centro<br />
+	X: <input name="xc" type="number" id="xc" value="300"><br /><br />
+	Y: <input name="yc" type="number" id="yc" value="300"><br /><br />
+      <input type="button" name="vai" class="button" value="Disegna" onclick="calldraw()"><br /><br />
+      <input type="button" name="clear" class="button" value="Reset" onclick="clearcanvas()">
+
+</td>
+      <td>
+	<canvas class="canvas" id="canvas1" width="600" height="600">Canvas non supportato</canvas>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
