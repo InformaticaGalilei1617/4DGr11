@@ -94,7 +94,7 @@ function store(xc,yc,l,n) {
     if (localStorage.getItem(history)!= null && localStorage.getItem(history)!= undefined) 
         h = JSON.parse(localStorage.getItem(history));
     h.unshift(JSON.stringify(currentdraw));
-    if (h.length>20)
+    if (h.length>30)
         h.pop();
     window.localStorage.setItem(history, JSON.stringify(h));
 }
